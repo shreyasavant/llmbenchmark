@@ -25,9 +25,10 @@ The collection is intended for Claude Code, Codex, and other agents that support
 
 ## Install
 
-Copy the skill folders you need into your agent's project-level skills directory. For Claude Code, use `.claude/skills/`; for Codex, use `.agents/skills/`. For example:
+Create a project-level skills directory and copy only the skills you need. For Claude Code, use `.claude/skills/`; for Codex, use `.agents/skills/`. For example:
 
 ```sh
+mkdir -p .claude/skills
 cp -R define-benchmark-gap .claude/skills/
 cp -R run-benchmark-experiments .claude/skills/
 ```
